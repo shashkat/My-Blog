@@ -1,5 +1,20 @@
 body{
-     margin: 0;
+     margin: 20px;
      background: grey;
      text-align: center;
+}
+
+.heading{
+     color: black;
+     font-size: 15px;
+     letter-spacing: 5px;
+     transition: all 1s;
+     /* transition-delay: 0.2s; */
+     transition-timing-function: ease-out;
+}
+
+.heading:hover{
+     color: white;
+     letter-spacing: 1px;
+     font-size: 20px;
 }
